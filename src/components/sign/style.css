@@ -1,0 +1,16 @@
+.container-log .line-sign .text::after {
+    content: "";
+    position: absolute;
+    width: 8rem;
+    height: 3px;
+    bottom: -1px;
+    left: -20px;
+    background-color: #5977FC;
+}
+.input-box p{
+    margin: 0;
+    padding: 0;
+}
+.register{
+    margin-top: 10px;
+}

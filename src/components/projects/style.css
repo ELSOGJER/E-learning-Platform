@@ -1,0 +1,43 @@
+.row {
+    --bs-gutter-x: 0;
+}
+.card-hover {
+    transition: all 0.3s;
+    border: 1px solid #3333332b;
+    flex-basis: 28%;
+    margin-bottom: 30px;
+    cursor: pointer;
+    /* gap: 15px; */
+}
+ .card-hover img{
+    width: 100%;
+ }
+ .card-hover p{
+   color: #000;
+    transition: all 0.3s;
+ }
+
+ .card-hover:hover{
+    box-shadow: 3px 3px 5px #c4b7b7;
+ }
+
+ .card-hover:hover  p{
+    color:#378ef0 ;
+ }
+    
+ @media screen and (max-width: 768px) {
+    .card-hover {
+    flex-basis: 40%;
+}
+ }
+     
+ @media screen and (max-width: 590px) {
+    .card-hover {
+    flex-basis: 70%;
+}
+ }
+  @media screen and (max-width: 320px) {
+    .card-hover {
+    flex-basis: 90%;
+}
+ }

@@ -1,0 +1,53 @@
+.editing__imging{
+    display: block;
+    width: 100%;
+    margin-top: 65px;
+}
+.esp32s2 h2{
+  color: #000;
+  font-size: 25px; 
+  margin-top: 50px; 
+}
+.esp32s2 p{
+    color: #000;
+    font-size: 18px; 
+    margin-top: 10px;
+
+}
+.flex_container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+.esp32_s2_card{
+    flex-basis: 33%;
+}
+.img_info{
+    width: 80%;
+    text-align: center;
+}
+.esp32_s2_card h3{
+    text-align: center;
+    font-size: 22px;
+    margin: 20px 0;
+}
+.esp32_s2_card img{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #999;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+}
+.esp32_s2_card p{
+    margin-top: 30px;
+    font-size: 16px;
+    width: 95%;
+}
+.last_page_click{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+}

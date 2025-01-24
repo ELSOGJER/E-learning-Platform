@@ -1,0 +1,27 @@
+.learn-more{
+    position: relative;
+    padding-top: 70px;
+    text-align: center;
+}
+.learn-more h4{
+    text-align: center;
+}
+.learn-more h4 a{
+    padding-left: 10px;
+}
+.learn-more a::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0rem;
+    height: 1px;
+    top: 6.2rem;
+    transition: 0.4s;
+}
+.learn-more a:hover::before{
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    width: 9rem;
+    height: 1px;
+}

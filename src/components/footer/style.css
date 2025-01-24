@@ -1,0 +1,151 @@
+.footer{
+    background-color: #EEEEEE;
+}
+.container-all{
+    padding: 90px 0 90px 80px;
+    display: flex;
+    gap: 40px;
+}
+.container-2{
+    display: flex;
+}
+.container-all .logo h1{
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 28px;
+}
+.container-all .logo ::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: black;
+    top: 30px;
+    transform: translateY(-50%);
+    margin-left: 30px;
+}
+.nav-bar{
+    margin-left: 20px;
+    margin-top: 22px;
+}
+.nav-bar a{
+    padding-left: 20px;
+    color: black;
+    font-size: 1.2rem;
+    transition: 0.2s ease-in-out;
+    position: relative;
+}
+.nav-bar a:hover{
+    color: var(--main-color);
+}
+.nav-bar a::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0rem;
+    height: 1px;
+    top:1.8rem;
+    transition: 0.5s;
+}
+.nav-bar a:hover::before{
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    width: 5rem;
+    height: 1px;
+    top:1.8rem;
+}
+.nav-bar #deff:hover::before{
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    width: 6rem;
+    height: 1px;
+    top:1.8rem;
+}
+.rights{
+    display: block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.container-3{
+    margin-left: 350px;
+}
+.icon{
+    transition: 0.1s ease-in-out;
+}
+.icon:hover{
+    transform: scale(0.95);
+}
+.container-3 .email{
+    color: black;
+    transition: 0.1s ease-in-out;
+}
+.container-3 .email:hover{
+    color: var(--main-color);
+}
+.mobile-rights{
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .container-all{
+        padding: 90px 0 90px 20px;
+        display: flex;
+        gap: 40px;
+    }
+    .container-3{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .container-all{
+        padding: 90px 0 90px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .container-3{
+        margin-left: 0;
+        flex-basis: 20px;
+    }
+}
+@media screen and (max-width:767px) {
+    .container-all{
+        padding: 50px 0 50px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        top: -20px;
+    }
+    .rights{
+        display: none;
+    }
+    .mobile-rights{
+        text-align: center;
+    }
+    .container-all .logo h1 {
+        position: relative;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-top: 58px;
+    }
+    .container-all .logo ::after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 110px;
+        background-color: black;
+        top: 24px;
+        transform: translateY(-50%);
+        margin-left: 30px;
+    }
+}

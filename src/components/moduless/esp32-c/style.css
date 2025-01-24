@@ -1,0 +1,16 @@
+.image.esp-c {
+    height: 250px;
+}
+.image.esp-c img{
+    height: 100%;
+}
+@media screen and (max-width:768px) {
+    .big-c{
+        gap: 4%;
+    }
+}
+@media screen and (max-width:767px) {
+    .card-esp{
+        width: 85%;
+    }
+}

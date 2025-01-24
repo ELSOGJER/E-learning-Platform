@@ -1,0 +1,13 @@
+.img__desgin{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.img__desgin img{
+    width: 250px;
+    height: 250px;
+}
+.spific{
+    align-items: flex-start;
+}
